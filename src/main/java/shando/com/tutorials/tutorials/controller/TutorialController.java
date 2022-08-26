@@ -27,6 +27,8 @@ import shando.com.tutorials.tutorials.repository.TutorialRepository;
 public class TutorialController {
   @Autowired
 	TutorialRepository tutorialRepository;
+  
+  @GetMapping("/tutorials")
   public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required = false) String title) {
     try {
       List<Tutorial> tutorials = new ArrayList<Tutorial>();
