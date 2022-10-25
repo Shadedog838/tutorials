@@ -1,0 +1,4 @@
+shando\com\tutorials\tutorials\model\Tutorial.class
+shando\com\tutorials\tutorials\TutorialsApplication.class
+shando\com\tutorials\tutorials\controller\TutorialController.class
+shando\com\tutorials\tutorials\repository\TutorialRepository.class
